@@ -97,9 +97,9 @@ The purpose of the first three arguments is described above in the section on us
 ```swift
 @State private var currentOfset = CGPoint(x: 0.0, y: 0.0)
 ```
-**IMPORTANT**: to start animation on the created instance of `RepresentedAnimatedView`, call the animate() method:
+**IMPORTANT**: to start animation on the created instance of `RepresentedAnimatedView`, call the animate() method as shown in the example above:
 ```swift
-animatedView.animate() as shown in the example above
+animatedView.animate()
 ```
 **IMPORTANT**: to maintain the ability to interact with controls that are under the `RepresentedAnimatedView`, add the `.disabled` modifier, as indicated in the example above:
 ```swift
